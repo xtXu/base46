@@ -16,15 +16,15 @@ return {
 	},
 	
 	GitSignsChange = {
-		fg = colors.orange,
+		fg = colors.yellow,
 	},
 	
 	GitSignsChangeLn = {
-		fg = colors.orange,
+		fg = colors.yellow,
 	},
 	
 	GitSignsChangeNr = {
-		fg = colors.orange,
+		fg = colors.yellow,
 	},
 	
 	GitSignsDelete = {
