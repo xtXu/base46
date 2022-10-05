@@ -34,45 +34,45 @@ return {
 		common.EndOfBuffer,
 	},
 	DiffviewFilePanelRootPath = {
-		colors.Grey,
+		colors.grey,
 	},
 	DiffviewFilePanelPath = {
-		colors.Grey,
+		colors.grey,
 	},
 	DiffviewFilePanelInsertions = {
-		colors.Green,
+		colors.green,
 	},
 	DiffviewFilePanelDeletions = {
-		colors.Red,
+		colors.red,
 	},
 	DiffviewStatusAdded = {
-		colors.Green,
+		colors.green,
 	},
 	DiffviewStatusUntracked = {
-		colors.Blue,
+		colors.blue,
 	},
 	DiffviewStatusModified = {
-		colors.Blue,
+		colors.blue,
 	},
 	DiffviewStatusRenamed = {
-		colors.Blue,
+		colors.blue,
 	},
 	DiffviewStatusCopied = {
-		colors.Blue,
+		colors.blue,
 	},
 	DiffviewStatusTypeChange = {
-		colors.Blue,
+		colors.blue,
 	},
 	DiffviewStatusUnmerged = {
-		colors.Blue,
+		colors.blue,
 	},
 	DiffviewStatusUnknown = {
-		colors.Red,
+		colors.bed,
 	},
 	DiffviewStatusDeleted = {
-		colors.Red,
+		colors.red,
 	},
 	DiffviewStatusBroken = {
-		colors.Red,
+		colors.red,
 	},
 }
