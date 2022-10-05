@@ -4,75 +4,87 @@ local common = require("base46.integrations.defaults")
 
 return {
 	DiffviewFilePanelTitle = {
-		fg = colors.blue, fmt = "bold"
+		fg = colors.blue, bold = true
 	},
 	DiffviewFilePanelCounter = {
-		fg = colors.purple, fmt = "bold"
+		fg = colors.purple, bold = true
 	},
 	DiffviewFilePanelFileName = {
-		colors.Fg,
+		fg = colors.fg,
 	},
 	DiffviewNormal = {
-		common.Normal,
+    fg = theme.base05,
+    bg = theme.base00,
 	},
+
 	DiffviewCursorLine = {
-		common.CursorLine,
+    bg = "none",
+    sp = "none",
 	},
+
 	DiffviewVertSplit = {
-		common.VertSplit,
+		fg = colors.one_bg3,
 	},
+
 	DiffviewSignColumn = {
-		common.SignColumn,
+    fg = theme.base03,
+    sp = "NONE",
 	},
+
 	DiffviewStatusLine = {
-		common.StatusLine,
+		fg = colors.grey_fg,
+		bg = colors.one_bg2,
 	},
+
 	DiffviewStatusLineNC = {
-		common.StatusLineNC,
+		fg = colors.grey,
+		bg = colors.one_bg,
 	},
+
 	DiffviewEndOfBuffer = {
-		common.EndOfBuffer,
+		fg = colors.one_bg2,
 	},
+
 	DiffviewFilePanelRootPath = {
-		colors.grey,
+		fg = colors.grey,
 	},
 	DiffviewFilePanelPath = {
-		colors.grey,
+		fg = colors.grey,
 	},
 	DiffviewFilePanelInsertions = {
-		colors.green,
+		fg = colors.green,
 	},
 	DiffviewFilePanelDeletions = {
-		colors.red,
+		fg = colors.red,
 	},
 	DiffviewStatusAdded = {
-		colors.green,
+		fg = colors.green,
 	},
 	DiffviewStatusUntracked = {
-		colors.blue,
+		fg = colors.blue,
 	},
 	DiffviewStatusModified = {
-		colors.blue,
+		fg = colors.blue,
 	},
 	DiffviewStatusRenamed = {
-		colors.blue,
+		fg = colors.blue,
 	},
 	DiffviewStatusCopied = {
-		colors.blue,
+		fg = colors.blue,
 	},
 	DiffviewStatusTypeChange = {
-		colors.blue,
+		fg = colors.blue,
 	},
 	DiffviewStatusUnmerged = {
-		colors.blue,
+		fg = colors.blue,
 	},
 	DiffviewStatusUnknown = {
-		colors.bed,
+		fg = colors.red,
 	},
 	DiffviewStatusDeleted = {
-		colors.red,
+		fg = colors.red,
 	},
 	DiffviewStatusBroken = {
-		colors.red,
+		fg = colors.red,
 	},
 }

@@ -1,46 +1,61 @@
 local theme = require("base46").get_theme_tb "base_16"
 local colors = require("base46").get_theme_tb "base_30"
 
+local c = {
+	diff_add = "#272e23",
+	diff_delete = "#2d2223",
+	diff_change = "#172a3a",
+	diff_text = "#274964",
+}
+
 return {
 	-- gitsigns
 	GitSignsAdd = {
 		fg = colors.green,
 	},
-	
+
 	GitSignsAddLn = {
 		fg = colors.green,
 	},
-	
+
 	GitSignsAddNr = {
 		fg = colors.green,
 	},
-	
+
 	GitSignsChange = {
 		fg = colors.yellow,
 	},
-	
+
 	GitSignsChangeLn = {
 		fg = colors.yellow,
 	},
-	
+
 	GitSignsChangeNr = {
 		fg = colors.yellow,
 	},
-	
+
 	GitSignsDelete = {
 		fg = colors.red,
 	},
-	
+
 	GitSignsDeleteLn = {
 		fg = colors.red,
 	},
-	
+
 	GitSignsDeleteNr = {
 		fg = colors.red,
 	},
+
+	-- gitgutter
+	GitGutterAdd = {fg = colors.green},
+	GitGutterChange = {fg = colors.blue},
+	GitGutterDelete = {fg = colors.red},
+
 	-- general
   DiffAdd = {
-    fg = colors.blue,
+    -- fg = colors.blue,
+		fg = c.none,
+		bg = c.diff_add,
   },
 
   DiffAdded = {
@@ -48,7 +63,9 @@ return {
   },
 
   DiffChange = {
-    fg = colors.light_grey,
+    -- fg = colors.light_grey,
+		fg = c.none,
+		bg = c.diff_change,
   },
 
   DiffChangeDelete = {
@@ -60,8 +77,15 @@ return {
   },
 
   DiffDelete = {
-    fg = colors.red,
+    -- fg = colors.red,
+		fg = c.none,
+		bg = c.diff_delete,
   },
+
+	DiffText = {
+		fg = c.none,
+		bg = c.diff_text,
+	},
 
   DiffRemoved = {
     fg = colors.red,
