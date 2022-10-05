@@ -78,7 +78,7 @@ return {
 
   DiffDelete = {
     -- fg = colors.red,
-		fg = c.none,
+		fg = colors.grey,
 		bg = c.diff_delete,
   },
 
