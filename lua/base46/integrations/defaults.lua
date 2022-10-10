@@ -176,7 +176,7 @@ return {
   },
 
   CursorLine = {
-    bg = "none",
+    bg = colors.black2,
     sp = "none",
   },
 
