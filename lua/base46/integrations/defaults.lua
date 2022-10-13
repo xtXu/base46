@@ -73,7 +73,8 @@ return {
   },
 
   Folded = {
-    fg = theme.base03,
+    -- fg = theme.base03,
+    fg = theme.base0F,
     bg = theme.base01,
   },
 
