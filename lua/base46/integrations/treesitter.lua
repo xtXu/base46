@@ -182,6 +182,10 @@ return {
     fg = theme.base08,
   },
 
+	TSOperator = {
+		fg = theme.base0E,
+	},
+
   TSInclude = {
     link = "Include",
   },
