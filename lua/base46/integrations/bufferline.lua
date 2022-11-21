@@ -51,8 +51,8 @@ return {
     bg = colors.black2,
   },
   BufferlineIndicatorSelected = {
-    fg = colors.black,
-    bg = colors.black,
+    fg = colors.blue,
+    bg = colors.blue,
   },
 
   -- modified
@@ -82,6 +82,20 @@ return {
     fg = colors.black2,
     bg = colors.black2,
   },
+
+	-- numbers
+	BufferLineNumbers = {
+		fg = colors.light_grey,
+		bg = colors.black2,
+	},
+	BufferLineNumbersVisible = {
+		fg = colors.light_grey,
+		bg = colors.black2,
+	},
+	BufferLineNumbersSelected = {
+		fg = colors.white,
+		bg = colors.black,
+	},
 
   -- tabs
   BufferLineTab = {
